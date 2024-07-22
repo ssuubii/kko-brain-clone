@@ -13,7 +13,7 @@ html {
   color: #000;
   scroll-behavior: smooth;
   text-size-adjust: 100%;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 body {
   font-family: Inter, "Noto Sans KR", sans-serif;
