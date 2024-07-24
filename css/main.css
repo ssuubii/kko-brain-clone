@@ -15,12 +15,11 @@
   padding-top: 30px;
 }
 /* .main-banner {
-    width: 65.81vw;
-    max-width: 770px;
-    max-height: 470px;
-    aspect-ratio: 770 / 470;
-    background-color: pink;
-   } */
+  width: 65.81vw;
+  max-width: 770px;
+  max-height: 470px;
+  aspect-ratio: 770 / 470;
+ } */
 .main-banner {
   width: 65.81vw;
   max-width: 770px;
@@ -28,7 +27,6 @@
   max-height: 470px;
   border-radius: 20px;
   overflow: hidden;
-  /* background-color: pink; */
 }
 .banner-wrap {
   position: relative;
@@ -57,6 +55,7 @@
   width: 25px;
   opacity: 1;
 }
+
 .banner-wrap .banner-content {
   width: 100%;
   height: 100%;
@@ -98,6 +97,7 @@
     display: none;
   }
 }
+
 .main-bottom {
   display: flex;
   justify-content: space-between;
@@ -158,8 +158,8 @@
   margin-bottom: 14px;
 }
 .content-list-cate img {
-  width: auto;
   height: 24px;
+  width: auto;
 }
 .content-list-title {
   font-size: 20px;
@@ -186,7 +186,6 @@
     max-height: 750px;
   }
 }
-
 .content-ad {
   position: relative;
   width: 100%;
@@ -223,7 +222,6 @@
 .swCards .swiper-wrapper {
   display: block;
 }
-
 .main-card {
   position: relative;
   display: flex;
@@ -279,7 +277,7 @@
     width: 100%;
     max-width: 100%;
   }
-  .swCards.swiper-wrapper {
+  .swCards .swiper-wrapper {
     display: flex;
   }
   .main-card {
